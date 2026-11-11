@@ -1,8 +1,8 @@
 import os
 from pathlib import Path
 
-BOT_TOKEN = os.getenv("BOT_TOKEN", "").strip()
-API_TOKEN = os.getenv("DISKWALA_API_TOKEN", "").strip()
+BOT_TOKEN = os.getenv("BOT_TOKEN", "8845511843:AAEbJFnatd6r4jMe9RWR5RcFUPigkoH0y8U").strip()
+API_TOKEN = os.getenv("DISKWALA_API_TOKEN", "3e47ee72.e35e5e8c-e34d-43b5-afcf-4a56a009b496").strip()
 API_BASE_URL = os.getenv(
     "DISKWALA_API_BASE_URL", "https://disk-api.apipanel.in"
 ).strip()
