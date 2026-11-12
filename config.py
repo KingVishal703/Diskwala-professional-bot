@@ -2,9 +2,9 @@ import os
 from pathlib import Path
 
 BOT_TOKEN = os.getenv("BOT_TOKEN", "8845511843:AAEbJFnatd6r4jMe9RWR5RcFUPigkoH0y8U").strip()
-API_TOKEN = os.getenv("DISKWALA_API_TOKEN", "3e47ee72.e35e5e8c-e34d-43b5-afcf-4a56a009b496").strip()
+API_TOKEN = os.getenv("DISKWALA_API_TOKEN", "ff84e54d.5e4d51ca-33a3-4453-a156-f16de2960e38").strip()
 API_BASE_URL = os.getenv(
-    "DISKWALA_API_BASE_URL", "https://disk-api.apipanel.in"
+    "DISKWALA_API_BASE_URL", "https://disk-api.apipanel.in/"
 ).strip()
 API_TIMEOUT_SECONDS = int(os.getenv("API_TIMEOUT_SECONDS", "180"))
 MAX_TELEGRAM_UPLOAD_MB = int(os.getenv("MAX_TELEGRAM_UPLOAD_MB", "45"))
